@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>240</x><y>72</y><w>210</w><h>220</h></coordinates><panel_attributes>Spill
+--
+- fart : int
+- hoyde : int
+- bredde : int
++ element : DOMElement
+--
+Responsibilities
++ start()
++ sjekkKollisjon()
++ leggTilBall()
++ leggTilPlatform()
++ scoreboard()
++ liv()
++ nivaa()  </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>352</y><w>210</w><h>70</h></coordinates><panel_attributes>Padde
+--
+- flyttlengde : int
++ element : DOMElement</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>352</y><w>210</w><h>120</h></coordinates><panel_attributes>Ball
+--
+- x : int
+- y : int
+- speed : int
+- speedX : int
+- speedY : int
++ element : DOMElement</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>352</y><w>210</w><h>70</h></coordinates><panel_attributes>Platform
+--
+- x : int
+- y : int
++ element : DOMElement</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>282</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;16;75</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>282</y><w>150</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>130;10;16;65</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>282</y><w>130</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;106;65</additional_attributes></element></diagram>

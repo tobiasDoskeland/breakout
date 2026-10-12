@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout</title>
+    <link rel="stylesheet" href="breakout.css">
+</head>
+<body onload="body_onload()">
+    <div id="container">
+        <div id="spillebrett">
+            <h1>Breakout</h1>
+            <p id="scoreboard"></p>
+            <p id="nivaa"></p>
+            <div id="padde"></div>
+        </div>
+        <button id="btnStart">&#x23FB</button>
+        <span>start</span>
+        <p id="liv"></p>
+        <button id="pause">&#x23F8</button>
+        <button id="play">&#x23F5</button>
+        <button id="pausemusikk">&#x23EF</button>
+    </div>
+    <div id="top10">
+        <h1>Top 10 - lokalt</h1>
+        <table id="scoreboardet"></table>
+    </div>
+
+
+    <audio id="gameover">
+        <source src="lyd/mixkit-arcade-retro-game-over-213.wav">
+    </audio>
+    <audio id="treff">
+        <source src="lyd/mixkit-arcade-mechanical-bling-210.wav">
+    </audio>
+    <audio id="spreng">
+        <source src="lyd/mixkit-arcade-retro-jump-223.wav">
+    </audio>
+    <audio id="nyttspill">
+        <source src="lyd/mixkit-arcade-game-opener-222.wav">
+    </audio>
+    <audio id="nestelevel">
+        <source src="lyd/mixkit-boss-fight-arcade-232.wav">
+    </audio>
+    <audio id="bakgrunn">
+        <source src="lyd/lady-of-the-80x27s-128379.mp3">
+    </audio>
+    <audio id="bakgrunn2">
+        <source src="lyd/nivaa2.mp3">
+    </audio>
+    <audio id="bakgrunn3">
+        <source src="lyd/nivaa3.mp3">
+    </audio>
+
+    <script src="breakout.js"></script>
+</body>
+</html>
